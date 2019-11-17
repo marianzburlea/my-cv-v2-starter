@@ -30,6 +30,11 @@
 .my-cv-codewars:before {
   content: "\e906";
 }
+.my-cv-arrow-up:before {
+  display: block;
+  transform: rotate(180deg);
+}
+.my-cv-arrow-up:before,
 .my-cv-arrow-down:before {
   content: "\e900";
 }
@@ -37,20 +42,29 @@
   content: "\e901";
 }
 .my-cv-codetap .path1:before {
+  font-size: 8vw;
+  font-style: normal;
   content: "\e902";
-  color: rgb(68, 68, 68);
+  /* color: rgb(68, 68, 68); */
+  color: #d52027;
 }
 .my-cv-codetap .path2:before {
+  font-size: 8vw;
+  font-style: normal;
   content: "\e903";
   margin-left: -1em;
   color: rgb(255, 255, 255);
 }
 .my-cv-codetap .path3:before {
+  font-size: 8vw;
+  font-style: normal;
   content: "\e904";
   margin-left: -1em;
   color: rgb(255, 255, 255);
 }
 .my-cv-codetap .path4:before {
+  font-size: 8vw;
+  font-style: normal;
   content: "\e905";
   margin-left: -1em;
   color: rgb(255, 255, 255);
